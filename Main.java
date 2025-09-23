@@ -17,7 +17,6 @@ public class Main
     System.out.println(circ3.toString());
 
     // prob 2
-
     System.out.println("Type a number for length and width: ");
     double lw = scan.nextDouble();
     System.out.println("type a length: ");
@@ -25,7 +24,20 @@ public class Main
     System.out.println("type a width: ");
     double wid = scan.nextDouble();
 
-    Rectangle rect = new Rectangle(lw);
+    Rectangle rect1 = new Rectangle(lw);
+    System.out.println(rect1.toString());
+    Rectangle rect2 = new Rectangle(len, wid);
+    System.out.println(rect2.toString());
+
+    // prob 3
+    System.out.println("Type a side length: ");
+    double len = scan.nextDouble();
+
+    RegularPolygon equiTri1 = new RegularPolygon(len);
+    RegularPolygon equiTri2 = new RegularPolygon(4, len);
+    System.out.println(equiTri1.toString() + "\n" + equiTri2.toString());
+
+
     
 
 
