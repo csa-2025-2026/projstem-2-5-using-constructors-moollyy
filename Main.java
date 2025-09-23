@@ -31,10 +31,10 @@ public class Main
 
     // prob 3
     System.out.println("Type a side length: ");
-    double len = scan.nextDouble();
+    double side = scan.nextDouble();
 
-    RegularPolygon equiTri1 = new RegularPolygon(len);
-    RegularPolygon equiTri2 = new RegularPolygon(4, len);
+    RegularPolygon equiTri1 = new RegularPolygon(side);
+    RegularPolygon equiTri2 = new RegularPolygon(4, side);
     System.out.println(equiTri1.toString() + "\n" + equiTri2.toString());
 
 
